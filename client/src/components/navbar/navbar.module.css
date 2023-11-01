@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
+
+.navarContain {
+  backdrop-filter: blur(10px);
+  background-color: #000000cc;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: #000000cc;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  width: 100%;
+  position: sticky;
+  z-index: 2;
+  font-family: "Contrail One";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2%;
+}
+.ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+  margin-right: 2%;
+}
+.link,
+.linkSesion {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link:hover,
+.linkSesion:hover {
+  color: #f1d518;
+  cursor: pointer;
+}
+
+.activeMobile {
+  width: 100%;
+}
+
+.activeMobile ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.containDesplegable {
+  display: flex;
+  justify-content: end;
+}
+.active {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: fit-content;
+  font-family: "Contrail One";
+  background-color: #000000cc;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  border-radius: 10px;
+  margin-right: 1%;
+  border: 1px solid white;
+  padding: 1%;
+}
+
+.icon {
+  padding-right: 10%;
+}
+
+.navbarMobile {
+  display: none;
+  color: white;
+}
+.optionMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 770px) {
+  .navbar {
+    display: none;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: column;
+    /* list-style: none; */
+  }
+  .logo {
+    width: 50%;
+    display: flex;
+  }
+
+  .navbarOpen {
+    display: none;
+  }
+  .navbarMobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+  }
+  .optionMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 3%;
+  }
+
+  .activeMobile {
+    display: flex;
+    font-size: 2rem;
+    gap: 20px;
+  }
+  .containDesplegable {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .activeMobile {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+}

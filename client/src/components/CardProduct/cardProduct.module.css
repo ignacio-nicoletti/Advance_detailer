@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
+
+.card_container {
+  font-family: "Contrail One";
+  padding-bottom: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  align-items: center;
+  border: solid #f1d518 2px;
+  width: 250px;
+}
+/* #f1d518 */
+
+.front {
+  display: flex;
+  flex-direction: column;
+  font-family: "Contrail One";
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+.title p {
+  color: black;
+  background-color: #f1d518;
+  width: 90%;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.informacion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 10px;
+  padding-inline: 5%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.precio {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  font-size: 12px;
+}
+.precio p {
+  padding-inline: 3%;
+  border: 2px solid #f1d518;
+  border-radius: 5px;
+}
+.buttonDescripcion p {
+  text-align: center;
+  color: black;
+  background-color: #f1d518;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+}
+.buttonDescripcion {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
+.buttonDescripcion p:hover {
+  cursor: pointer;
+  box-shadow: rgb(255, 255, 255) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.descriptionBack {
+  color: #f1d518;
+  padding: 5%;
+  font-size: 0.9rem;
+}
+
+.buttonInformation {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.buttonInformation p {
+  text-align: center;
+  color: black;
+  background-color: #f1d518;
+  width: 90%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.buttonInformation p:hover {
+  cursor: pointer;
+  box-shadow: rgb(255, 255, 255) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}

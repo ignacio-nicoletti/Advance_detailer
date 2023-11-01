@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
+
+.contain {
+  background-image: url("../../assets/trabajos/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Contrail One";
+}
+
+/* tratamientos */
+.photoContain {
+  margin-inline: 10%;
+  padding-block: 2.5%;
+  color: #f1d518;
+}
+
+.containbuttons {
+  display: flex;
+}
+
+.photo {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1%;
+  width: 100%;
+}

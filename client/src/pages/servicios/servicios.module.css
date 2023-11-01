@@ -1,0 +1,93 @@
+.serviciosContain {
+  /* background-image: url("https://img.freepik.com/fotos-premium/fondo-amarillo-negro-habitacion-vacia_570543-7231.jpg?w=740"); */
+  background-image: url("../../assets/servicios/BgService.png");
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+}
+
+.grillaService {
+  font-size: 1.5rem;
+  padding-top: 10%;
+  color: white;
+  margin-inline: 10%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #f1d518;
+  margin-bottom: 5%;
+}
+.grillaService h3 {
+  font-size: 1.9rem;
+  text-align: center;
+  font-family: "contrail one";
+}
+.grillaService p {
+  color: #f1d518;
+  /* color: white; */
+}
+
+.tratamientos {
+  background-color: rgba(0, 0, 0, 0.788);
+  border: solid black 3px;
+  border-radius: 15px;
+  margin: 1%;
+  padding: 2%;
+  transition: 1s;
+}
+.tratamientos h4 {
+  text-align: center;
+  color: #f1d518;
+}
+.tratamientos p {
+  text-align: center;
+  font-size: 1rem;
+}
+.informacionTratamientos {
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  margin: 5%;
+}
+.linkContain {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.link {
+  text-decoration: none;
+}
+.link p {
+  font-size: 0.7rem;
+  color: #ffffff;
+  transition: 1s;
+}
+.link:hover p {
+  color: #f1d518;
+  transition: 1s;
+}
+
+.tratamientos:hover {
+  transition: 1s;
+  border: solid #f1d518 3px;
+}
+
+.otrosService {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  gap: 5%;
+  margin: 5% 1%;
+  border: solid rgb(0, 0, 0) 3px;
+  border-radius: 15px;
+  font-size: 1rem;
+  padding: 2.5%;
+  transition: 1s;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.788);
+}
+
+.otrosService:hover {
+  border: solid #f1d518 3px;
+  transition: 1s;
+}

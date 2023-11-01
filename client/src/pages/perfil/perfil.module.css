@@ -1,0 +1,196 @@
+.contain {
+  background-image: url("../../assets/profile/Bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.ProfileHeader {
+  display: flex;
+  padding-top: 10%;
+  align-items: center;
+  padding-left: 10%;
+  gap: 5%;
+}
+.ProfileHeaderImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 5%;
+}
+.ProfileHeaderImage:hover {
+  cursor: pointer;
+}
+
+.ProfileHeaderImage button {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f1d518;
+  margin-top: 5%;
+}
+.ProfileHeaderImage input {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f1d518;
+  margin-top: 5%;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  color: #f1d518;
+  gap: 5%;
+  font-size: 4rem;
+}
+.name:hover {
+  cursor: pointer;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+/* datos del user */
+
+.info {
+  margin: 0% 10% 10% 10%;
+  border-radius: 10px;
+}
+
+.texto p {
+  /* padding: 1%; */
+  width: 95%;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+
+.texto svg {
+  visibility: hidden;
+}
+
+.texto:hover > svg {
+  visibility: visible;
+  cursor: pointer;
+}
+.texto {
+  background-color: rgba(0, 0, 0, 0.738);
+  border: 1px solid #f1d518;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-inline: 2%;
+  margin-block: 1%;
+}
+
+
+.textoEdit form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.textoEdit form > input {
+  margin: 1%;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.738);
+  color: white;
+  border: #f1d518 2px solid;
+}
+
+.textoEdit form select {
+  margin: 1%;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.738);
+  color: white;
+  border: #f1d518 2px solid;
+}
+
+.textoEdit form > button {
+  margin: 1%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.738);
+  color: white;
+}
+
+.textoEdit form > button:hover {
+  background-color: rgba(0, 0, 0, 0.999);
+  border: #f1d518 2px solid;
+}
+
+.adressContain {
+  background-color: rgba(0, 0, 0, 0.738);
+  border: 1px solid #f1d518;
+  border-radius: 10px;
+  padding-inline: 2%;
+}
+
+.adress {
+  display: flex;
+  padding: 5%;
+  justify-content: center;
+  gap: 5%;
+  font-size: 1.5rem;
+}
+.adressCol1 {
+  width: 45%;
+}
+.adressCol2 {
+  width: 45%;
+}
+
+.adressInfo {
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.999);
+  border: #f1d518 2px solid;
+  border-radius: 10px;
+  padding-left: 2%;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.adressInfo svg {
+  visibility: hidden;
+}
+.adressInfo:hover svg {
+  visibility: visible;
+}
+.adressInfo p {
+  padding: 2% 10% 0% 0%;
+}
+
+.adressEdit {
+  display: flex;
+  margin-inline: 1%;
+}
+
+.adressEdit input {
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.738);
+  color: white;
+  border: #f1d518 2px solid;
+  width: 100%;
+  margin-block: 2%;
+  padding-inline: 2%;
+}
+.adressEditcol1 {
+  padding-right: 0.5%;
+}
+.adressEditcol1 p,
+.adressEditcol2 p {
+  font-size: 0.8rem;
+  color: black;
+  margin: 0;
+  padding-left: 2%;
+}
+.adressEditcol2 {
+  padding-left: 0.5%;
+}

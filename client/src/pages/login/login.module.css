@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Contrail+One&display=swap");
+
+.login {
+  /* width: 100%; */
+  /* height: 100vh; */
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/login/fondo.jpg");
+  font-family: "Contrail One";
+  background-size: cover;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+}
+.containFront,
+.containBack {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  border: solid #f1d518 3px;
+  border-radius: 10px;
+  color: #ffff;
+  width: 30%;
+}
+
+.containFront form,
+.containBack form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.containFront input,
+.containBack input {
+  width: 80%;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 1%;
+}
+
+.containFront button,
+.containBack button {
+  color: black;
+  background-color: #f1d518;
+  border-radius: 5px;
+  padding: 3px;
+  width: 50%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+}
+
+.containFront p,
+.containBack p {
+  color: #f1d518;
+  text-align: center;
+}
+
+/* Chekbox */
+
+.check {
+  padding-top: 20%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.check span {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.body [type="checkbox"]:checked,
+.body [type="checkbox"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+.checkbox:checked + label,
+.checkbox:not(:checked) + label {
+  position: relative;
+  display: flex;
+  text-align: center;
+  width: 60px;
+  height: 16px;
+  border-radius: 8px;
+  padding: 0;
+  margin: 0px 20px auto 20px;
+  cursor: pointer;
+  background-color: #ffeba7;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.checkbox:checked + label:before,
+.checkbox:not(:checked) + label:before {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #ffeba7;
+  background-color: #f1d518;
+  font-family: "unicons";
+  content: "👤";
+  z-index: 20;
+  top: -10px;
+  left: -10px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 24px;
+  transition: all 0.5s ease;
+  transform: translateX(0px) rotate(-360deg) translateY(0px);
+  
+}
+.checkbox:checked + label:before {
+  transform: translateX(40px) ;
+  
+}

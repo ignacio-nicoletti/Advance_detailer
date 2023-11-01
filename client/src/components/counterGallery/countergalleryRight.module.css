@@ -1,0 +1,17 @@
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(132, 128, 128, 0.538);
+  margin-inline-start: 2%;
+  font-size: 3rem;
+  transition: 1s;
+  border-radius: 5px;
+  padding: 0.5%;
+}
+
+.contain:hover {
+  transition: 1s;
+  background-color: rgb(132, 128, 128);
+  cursor: pointer;
+}

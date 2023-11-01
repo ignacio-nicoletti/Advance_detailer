@@ -1,0 +1,48 @@
+.contain {
+  display: flex;
+  background-color: #000000;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  padding-block: 1%;
+}
+.contain a {
+  color: #f1d518;
+}
+
+.dress {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+  padding-left: 5%;
+}
+.copyrigth {
+  display: flex;
+  justify-content: center;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: end;
+  padding-right: 5%;
+  gap: 2%;
+}
+
+@media only screen and (max-width: 500px) {
+  .contain {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .dress {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+  }
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    padding-right: 0%;
+  }
+}
